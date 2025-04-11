@@ -1,0 +1,21 @@
+{
+  "name": "learning",
+  "version": "1.0.1",
+  "description": "basically it is learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-express"
+  },
+  "author": "kavit-bokarvadiya",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "react-script": "^2.0.5"
+  }
+}
