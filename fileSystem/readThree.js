@@ -35,10 +35,13 @@ fs.open("input.txt", "r+", function (err, fd) {
 
     console.log("Number of bytes read:", bytes);
 
-    if (bytes > 0) {
-      console.log("Data read from file:");
-      console.log(buf.slice(0, bytes).toString());
-    }
+    fs.close(fd, function (erClose) {
+      if (erClose) {
+        console.log("error in close");
+      } else {
+        console.log("error not occur in closing");
+      }
+    });
   });
 });
 
