@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "first_name": "Skipper",
-    "last_name": "Meaking",
-    "email": "smeaking0@constantcontact.com",
-    "gender": "Male",
-    "job_title": "Product Engineer"
-  },
-  {
     "id": 2,
     "first_name": "Killie",
     "last_name": "Sedgemond",
@@ -7998,5 +7990,20 @@
     "email": "asimonettirr@amazon.com",
     "gender": "Female",
     "job_title": "Staff Scientist"
+  },
+  {
+    "first_name": "kavit",
+    "last_name": "bokarvadiya",
+    "email": "kavit@gmail.com",
+    "gender": "male",
+    "job_title": "software developer"
+  },
+  {
+    "first_name": "lala",
+    "last_name": "kaka",
+    "email": "lala@gmail.com",
+    "gender": "male",
+    "job_title": "xyz",
+    "id": "1002"
   }
 ]
