@@ -1,0 +1,23 @@
+CREATE REST API
+
+// here, we can create hybride server if any user upen the app on the mobile then return JSON formate and if any user open app on the browser then data render as html formate
+// for JSON formate give /api/users path on url
+// for JSON formate give /users path on url
+
+GET /users - List all users -- html formate
+GET /api/users - List all users -- JSON formate
+
+GET /users/1 - Get the user with id 1 -->   here, id is static
+GET /users/2 - Get the user with id 2 -->   here, id is static
+
+// for dynamic id
+
+GET /users/:id == GET /users/:id  --> variable | dynamic
+
+
+
+POST /users - create new user
+
+PATCH /users/1 - Edit the user with id 1
+
+DELETE /users/1 - Delete the user with id 1
